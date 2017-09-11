@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #404040;
+}
+
+.cards-tours {
+	position: relative;
+	width: 845px;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 50px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+.cards-tours h1 {
+
+	margin-left: 40px !important;
+	margin-bottom: 80px;
+	font-size: 40px;
+	line-height: 55px;
+    color: #045bd4;
+}
+
+.tours-items{
+  position: relative;
+  width: 845px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.catalog-tours {
+	position: absolute;
+	min-width: 100px;
+  top: 22.5px;
+	right: 55px;
+	padding: 10px;
+}
+
+.tour-item {
+	position: relative;
+	width: 176px;
+	float: left;
+  margin-left: 25.5px;
+	margin-bottom: 25.5px;
+	border: 1px solid #00008B;
+	background-color:  #87ceff;
+  box-shadow: 3px 3px 5px rgba(20, 20, 50, 0.8);
+  transition: all 0.2s linear;
+}
+
+.tour-item:hover {
+  transform: scale(1.22);
+  z-index: 1;
+}
+
+.tour-item p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    min-height: 88px;
+  font-weight: bold;
+    font-size: 16px !important;
+  color: #FFFFFF;
+}
+
+.tour-item strong {
+  display: block;
+  color: #2C76A6;
+}
+
+.tour-item img {
+    display: block;
+	min-width: 176px;
+	height: 155px;
+    margin: 0 auto;
+  border-bottom: 1px solid #00008B;
+}
+
+.btn {
+  display: inline-block;
+  width: 70px;
+  padding: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 11px;
+  color: #ffffff;
+  vertical-align: top;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  word-wrap: break-word;
+  border: 1px solid #00008B;
+  border-radius: 2px;
+  background-color: #045bd4;
+	transition: all 0.15s linear;
+}
+
+.tour-item .btn-info {
+  display: block;
+	width: 150px;
+  margin: 5px auto;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+  background-color: white;
+  color: #4169E1;
+}
+
+.btn:active {
+  background-color: #783100;
+  color: #ffffff;
+}
