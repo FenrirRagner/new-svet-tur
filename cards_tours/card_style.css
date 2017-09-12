@@ -1,133 +1,137 @@
 body {
-margin: 0;
-padding: 0;
-font-size: 18px;
-line-height: 24px;
-font-family: 'PT Sans', sans-serif;
-color: #404040;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 24px;
+  font-size: 18px;
+  color: #404040;
 }
 
 .cards-tours {
-position: relative;
-width: 845px;
-height: 100%;
-padding-top: 20px;
-padding-bottom: 50px;
-margin: 0 auto;
-background-repeat: no-repeat;
+  position: relative;
+  width: 845px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
-.cards-tours h1 {
-
-margin-left: 40px !important;
-margin-bottom: 80px;
-font-size: 40px;
-line-height: 55px;
-color: #7F7B6B;
+.cards-tours__title {
+  margin-left: 40px !important;
+  margin-bottom: 80px;
+  line-height: 55px;
+  font-size: 40px;
+  color: #7F7B6B;
 }
 
 .tours-items{
-position: relative;
-width: 845px;
-margin: 0 auto;
+  position: relative;
+  width: 845px;
+  margin: 0 auto;
 }
 
 .clearfix::after {
-content: "";
-display: table;
-clear: both;
+  display: table;
+  clear: both;
+  content: "";
 }
 
-.catalog-tours {
-position: absolute;
-min-width: 100px;
-top: 22.5px;
-right: 55px;
-padding: 10px;
-}
-
-.tour-item {
-position: relative;
-width: 236px;
-max-height: 300px;
-float: left;
-margin-left: 15.5px;
-margin-bottom: 15.5px;
-border: 1px solid #7F7B6B;
-background-color:#FFC60E;
-border-radius: 10px;
-box-shadow: 3px 3px 5px rgba(20, 20, 50, 0.8);
-transition: all 0.2s linear;
-}
-
-.tour-item:hover {
-transform: scale(1.09);
-z-index: 1;
-}
-
-.tour-item p {
-margin-top: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-margin-right: 5px;
-min-height: 88px;
-font-weight: bold;
-font-size: 18px !important;
-color: #FFFFFF;
-text-shadow: 1px 1px 1px #000000;
-}
-
-.tour-item strong {
-display: block;
-color: #7F7B6B;
-text-shadow: none;
-}
-
-.tour-item img {
-display: block;
-min-width: 176px;
-max-width: 236px;
-min-height: 155px;
-max-height: 159px;
-background-size: contain;
-margin: 0 auto;
-border-bottom: 1px solid #00008B;
-border-radius: 10px 10px 0 0;
-}
-
-.btn {
+.btn_all-tours,
+.btn_info {
 display: inline-block;
 width: 70px;
 padding: 2px;
 margin-top: 5px;
 margin-bottom: 5px;
-font-size: 11px;
-color: #ffffff;
+border: 1px solid #7F5524;
 vertical-align: top;
 text-align: center;
 text-transform: uppercase;
 text-decoration: none;
+font-size: 11px;
 word-wrap: break-word;
-border: 1px solid #7F5524;
-background-color: #7F7B6B;
-transition: all 0.15s linear;
-}
-
-.tour-item .btn-info {
-display: block;
-width: 150px;
-margin: 0 auto;
-margin-bottom: 10px;
-font-weight: bold;
-border-radius: 5px;
-}
-
-.btn:hover {
-background-color: white;
-color: #7F7B6B;
-}
-
-.btn:active {
-background-color: #7F7B6B;
 color: #ffffff;
+background-color: #7F7B6B;
+}
+
+.btn_all-tours:hover,
+.btn_info:hover {
+  color: #7F7B6B ;
+  background-color: #FFFFFF;
+}
+
+.btn_all-tours:active,
+.btn_info:active {
+  color: #FFFFFF;
+  background-color: #7F7B6B;
+}
+
+.btn_all-tours {
+  top: 22.5px;
+  right: 55px;
+  position: absolute;
+  width: 100px;
+  padding: 10px;
+}
+
+.btn_info {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 150px;
+  left: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.tour-item {
+  position: relative;
+  float: left;
+  width: 236px;
+  height: 354px;
+  margin-left: 15.5px;
+  margin-bottom: 15.5px;
+  border: 1px solid #7F7B6B;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(20, 20, 50, 0.8);
+  background-color:#FFC60E;
+  transition: all 0.2s linear;
+}
+
+.tour-item:hover {
+  transform: scale(1.09);
+  z-index: 1;
+}
+
+.tour-item__text-content {
+  display: block;
+  overflow: hidden;
+  max-height: 120px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 18px !important;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.tour-item__text-content_date {
+  display: block;
+  color: #7F7B6B;
+  text-shadow: none;
+}
+
+.tour-item__img-content {
+  display: block;
+  min-width: 176px;
+  max-width: 236px;
+  min-height: 155px;
+  max-height: 159px;
+  margin: 0 auto;
+  border-bottom: 1px solid #7F7B6B;
+  border-radius: 10px 10px 0 0;
+  background-size: contain;
 }
