@@ -1,0 +1,22 @@
+BF9F38
+.btn_all-tours:hover {
+  background-color: #BFBCAE;
+.btn_all-tours:active,
+.btn_info:active {
+  color: #FFFFFF;
+  background-color: #7F7B6B;
+
+
+7F7B6B
+
+.btn_all-tours:hover,
+.btn_info:hover {
+  color: #7F7B6B ;
+  background-color: #FFFFFF;
+}
+
+.btn_all-tours:active,
+.btn_info:active {
+  color: #FFFFFF;
+  background-color: #7F7B6B;
+}

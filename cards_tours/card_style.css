@@ -39,26 +39,30 @@ body {
 
 .btn_all-tours,
 .btn_info {
-display: inline-block;
-width: 70px;
-padding: 2px;
-margin-top: 5px;
-margin-bottom: 5px;
-border: 1px solid #7F5524;
-vertical-align: top;
-text-align: center;
-text-transform: uppercase;
-text-decoration: none;
-font-size: 11px;
-word-wrap: break-word;
-color: #ffffff;
-background-color: #7F7B6B;
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #7F5524;
+  border-radius: 5px;
+  vertical-align: top;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  word-wrap: break-word;
+  color: #ffffff;
+  background-color: #BF9F38;
 }
 
-.btn_all-tours:hover,
+.btn_all-tours:hover {
+  background-color: #BF9F38;
+  color: #FFFFFF;
+}
+
 .btn_info:hover {
-  color: #7F7B6B ;
-  background-color: #FFFFFF;
+  /*color: #7F7B6B ;*/
+  background-color: #A68005;
 }
 
 .btn_all-tours:active,
@@ -68,21 +72,23 @@ background-color: #7F7B6B;
 }
 
 .btn_all-tours {
-  top: 22.5px;
-  right: 55px;
   position: absolute;
-  width: 100px;
-  padding: 10px;
+  top: 55px;
+  right: 85px;
+  width: 120px;
+  padding: 7px;
+  font-size: 16px;
+  color: #7F7B6B;
+  background-color: #FFFFFF;
 }
 
 .btn_info {
   display: block;
   position: absolute;
+  left: 40px;
   bottom: 0;
   width: 150px;
-  left: 40px;
-  font-weight: bold;
-  border-radius: 5px;
+  padding: 5px;
 }
 
 .tour-item {
