@@ -1,0 +1,30 @@
+.top-navigation {
+	min-width: 100vh;
+	font-family: "PT Sans", "Arial", sans-serif;
+	background-color: #2b85db;
+	
+}
+
+.top-navigation__list {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+
+.top-navigation__item {
+	height: 50px;
+	list-style: none;
+}
+
+.top-navigation__link {
+	display: inline-block;
+	padding: 16px;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.top-navigation__link:hover {
+	background-color: rgba(240, 240, 240, 0.3);
+}

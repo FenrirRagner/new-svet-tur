@@ -1,0 +1,61 @@
+.header-info {
+	display: flex;
+	justify-content: center;
+	height: 286px;
+	padding-top: 1px;
+	background: url(../ns-img/bg_header.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+}
+
+.header-info__logo {
+	margin-left: 80px;
+	margin-top: 15px;
+	margin-right: 40px;
+}
+
+.header-info__info {
+	/* width: 249px; */
+	height: 276px;
+	margin-top: 10px;
+	background-image: url(../ns-img/bg_headerright.png);
+	background-repeat: no-repeat;
+}
+
+.header-info__contacts-items {
+	margin-left: 250px;
+	list-style: none;
+	text-align: left;
+	font-size: 32px;
+	position: relative;
+}
+
+.header-info__contact-item {
+	white-space: nowrap;
+}
+
+.header-info__contact-item::before {
+	position: absolute;
+	content: "";
+	width: 25px;
+	height: 25px;
+	left: 5px;
+	margin-top: 5px;
+}
+
+.header-info__contact-item:first-child::before {
+	background-image: url(../ns-img/phone.svg);
+}
+
+.header-info__contact-item:nth-child(2)::before {
+	background-image: url(../ns-img/phone.svg);
+}
+
+.header-info__contact-item:nth-child(3)::before {
+	background-image: url(../ns-img/smartphone.svg);
+}
+
+.header-info__contact-item:nth-child(4)::before {
+	background-image: url(../ns-img/skype.svg);
+	margin-top: 10px;
+}
