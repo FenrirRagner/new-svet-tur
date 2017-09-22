@@ -23,17 +23,19 @@
   padding: 5px;
   margin: 0;
   list-style: none;
+  width: 220px;
 }
 
 .left-menu__route-item {
 	margin: 3px;
+	width: 210px;
 }
 
 .left-menu__route-link,
 .left-menu__route-link--info {
   display: inline-block;
   box-sizing: border-box;
-  width: 220px;
+  width: 210px;
   padding-left: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -56,10 +58,10 @@
 
 .left-menu__route-link:hover,
 .left-menu__route-link--info:hover {
-  background-color: rgba(240, 240, 240, 0.2);
-  color: #2b85db;
+  background-color: #2b85db;
+  color: rgb(240, 240, 240);
   transform: scale(1.05);
-  text-shadow: 1px 1px 1px #ffffff;
+  text-shadow: 1px 1px 1px #00000;
 }
 
 .left-menu__route-link:active {
