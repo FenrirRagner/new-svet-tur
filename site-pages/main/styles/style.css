@@ -1,23 +1,8 @@
 .main-holder {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	min-width: 1200px;
 	max-width: 1400px;
 	margin: 0 auto;
 }
 
-.main-footer__content {
-	min-width: 1200px;
-	max-width: 1400px;
-	font-family: "PT Sans", "Arial", sans-serif;
-	background-color: #2b85db;
-	height: 50px;
-	padding-top: 1px;
-	margin: 0 auto;
-}
-
-.main-footer__text {
-	margin-bottom: 16.5px;
-	text-align: center;
-	color: #FFFFFF;
-}
