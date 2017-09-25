@@ -1,3 +1,7 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
+
 .main-holder {
 	display: flex;
 	justify-content: center;
@@ -5,4 +9,3 @@
 	max-width: 1400px;
 	margin: 0 auto;
 }
-

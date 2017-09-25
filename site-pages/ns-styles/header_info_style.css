@@ -1,64 +1,64 @@
 .header-info {
-	display: flex;
-	justify-content: space-around;
-	min-width: 1200px;
-	max-width: 1400px;
-	height: 286px;
-	padding-top: 1px;
-	background: url(../ns-img/bg_header.png);
-	background-repeat: repeat-x;
-	background-size: contain;
-	margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1200px;
+    max-width: 1400px;
+    height: 286px;
+    padding-top: 1px;
+    background: url(../ns-img/bg_header.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin: 0 auto;
 }
 
 .header-info__logo {
-	margin-top: 15px;
-	margin-right: 40px;
+    margin-top: 15px;
+    margin-right: 40px;
 }
 
 .header-info__info {
-	height: 276px;
-	margin-top: 10px;
-	background-image: url(../ns-img/bg_headerright.png);
-	background-repeat: no-repeat;
+    height: 276px;
+    margin-top: 10px;
+    background-image: url(../ns-img/bg_headerright.png);
+    background-repeat: no-repeat;
 }
 
 .header-info__contacts-items {
-	position: relative;
-	margin-left: 250px;
-	margin-top: 120px;
-	list-style: none;
-	text-align: left;
-	font-size: 26px;
-	color: #010002; 
+    position: relative;
+    margin-left: 250px;
+    margin-top: 120px;
+    list-style: none;
+    text-align: left;
+    font-size: 26px;
+    color: #010002;
 }
 
 .header-info__contact-item {
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 .header-info__contact-item::before {
-	position: absolute;
-	content: "";
-	width: 20px;
-	height: 20px;
-	left: 10px;
-	margin-top: 10px;
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    margin-top: 10px;
 }
 
 .header-info__contact-item:first-child::before {
-	background-image: url(../ns-img/phone.svg);
+    background-image: url(../ns-img/phone.svg);
 }
 
 .header-info__contact-item:nth-child(2)::before {
-	background-image: url(../ns-img/phone.svg);
+    background-image: url(../ns-img/phone.svg);
 }
 
 .header-info__contact-item:nth-child(3)::before {
-	background-image: url(../ns-img/smartphone.svg);
+    background-image: url(../ns-img/smartphone.svg);
 }
 
 .header-info__contact-item:nth-child(4)::before {
-	background-image: url(../ns-img/skype.svg);
-	margin-top: 10px;
+    background-image: url(../ns-img/skype.svg);
+    margin-top: 10px;
 }
