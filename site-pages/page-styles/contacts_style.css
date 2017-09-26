@@ -1,0 +1,25 @@
+.content-items__title {
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 50px;
+	margin-bottom: 5px;
+	color: #2b85db;
+}
+
+.content-items__list {
+	display: block;
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.content-items__list-item {
+	list-style: none;
+	color: #2b85db; 
+}
+
+.content-items__img-place {
+	width: 600px;
+	height: 235.29px;
+	margin-left: 50px;
+}

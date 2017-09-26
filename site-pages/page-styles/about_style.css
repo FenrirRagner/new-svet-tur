@@ -1,0 +1,11 @@
+.content-items__poem {
+	margin-left: auto;
+	text-align: right;
+	
+}
+
+.content-items__about-text,
+.content-items__about-text-alert {
+	margin-left: 50px;
+	text-align: justify;
+}
