@@ -38,14 +38,15 @@
     display: inline-block;
     box-sizing: border-box;
     width: 210px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
     padding-top: 12px;
     padding-bottom: 12px;
-    background-color: #2b85db;
+    /* background-color: #2b85db; */
     font-size: 16px;
     font-weight: bold;
     word-wrap: break-word;
-    color: #ffffff;
+    /* color: #ffffff; */
+	color: #2b85db;
     text-decoration: none;
    /*  box-shadow: 1px 1px 1px 0 black; */
    border-radius: 5px;
