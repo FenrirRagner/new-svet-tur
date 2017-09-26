@@ -33,13 +33,13 @@
     color: #010002;
 }
 
-.header-info__contact-item::selection {
-    background: #2b85db;
-	color: #FFFFFF;
-}
-
 .header-info__contact-item {
     white-space: nowrap;
+    padding: 3px;
+}
+
+.header-info__contact-link-skype {
+    color: inherit;
 }
 
 .header-info__contact-item::before {
@@ -48,7 +48,7 @@
     width: 20px;
     height: 20px;
     left: 10px;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 .header-info__contact-item:first-child::before {

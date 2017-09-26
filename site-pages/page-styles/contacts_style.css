@@ -11,15 +11,21 @@
 	display: block;
 	margin-left: 50px;
 	margin-bottom: 50px;
+	padding-left: 0;
 }
 
 .content-items__list-item {
+	padding: 5px;
 	list-style: none;
-	color: #2b85db; 
+	color: #2b85db;
 }
 
 .content-items__img-place {
 	width: 600px;
 	height: 235.29px;
 	margin-left: 50px;
+}
+
+.content-items__link-email {
+	color: inherit;
 }
