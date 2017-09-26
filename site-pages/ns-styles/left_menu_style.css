@@ -47,8 +47,8 @@
     word-wrap: break-word;
     color: #ffffff;
     text-decoration: none;
-    border-bottom: 1px solid black;
-    box-shadow: 1px 1px 1px 0 black;
+    /*border-bottom: 1px solid black;*/
+    box-shadow: 0.5px 0.5px 0.5px 0 black;
     transition: all 0.15s linear;
     /*text-shadow: 1px 1px 1px #000000;*/
 }
