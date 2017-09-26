@@ -33,6 +33,11 @@
     color: #010002;
 }
 
+.header-info__contact-item::selection {
+    background: #2b85db;
+	color: #FFFFFF;
+}
+
 .header-info__contact-item {
     white-space: nowrap;
 }
