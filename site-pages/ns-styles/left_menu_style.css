@@ -1,19 +1,22 @@
 .left-menu {
     max-width: 220px;
-    margin-top: 25px;
-    margin-left: 40px;
+    /*margin-top: 25px;*/
+    /*margin-left: 40px;*/
     padding-top: 10px;
+    padding-right: 3px;
+    background-color: rgba(28, 118, 204, 0.2);
 }
 
 .left-menu__title {
     margin: 0;
     margin-top: 5px;
-    padding-left: 8px;
+    padding: 5px;
     text-align: left;
     font-size: 18px;
     text-transform: uppercase;
     text-decoration: underline;
     color: #2b85db;
+
 }
 
 .left-menu__route-items {
@@ -42,7 +45,6 @@
     /* color: #ffffff; */
     color: #2b85db;
     text-decoration: none;
-    border-radius: 5px;
     transition: all 0.15s linear;
 }
 
@@ -55,6 +57,7 @@
 .left-menu__route-link:hover, .left-menu__route-link--info:hover {
     transform: scale(1.05);
     background-color: rgba(28, 118, 204, 0.2);
+    color: rgb(240, 240, 240);
 }
 
 .left-menu__route-link:active, .left-menu__route-link--info:active {
