@@ -4,18 +4,14 @@
     margin-left: 40px;
     padding-top: 10px;
     padding-right: 3px;
-    background-color: rgba(28, 118, 204, 0.2);
-	height: 100%;
-}
-
-.left-menu::before {
-	position: relative;
-	content: "Туры \25BC";
-	left: 5px;
-	top: -45px;
-	color: rgb(240, 240, 240);
-	text-transform: uppercase;
-	font-weight: bold;
+    background-color: rgba(28, 118, 204, 0.9);
+	height: 150px;
+	position: absolute;
+	visibility: hidden;
+	z-index: 99;
+	left: 10px;
+	top: 50px;
+	
 }
 
 .left-menu__title {
@@ -25,29 +21,43 @@
     text-align: left;
     font-size: 18px;
     text-transform: uppercase;
-    text-decoration: underline;
-    color: #2b85db;
+
+    color: rgb(240, 240, 240);
+	z-index: 99;	
+}
+
+
+.left-menu__title:hover,
+.left-menu__route-link--info:hover  {
+    text-decoration: underline;	
 }
 
 .left-menu__route:hover .left-menu__route-items {
-	display: block;
-	opacity: 1;
+	visibility: visible;
 	height: auto;
+	z-index: 0;
+	opacity: 1;
 }
 
 .left-menu__route-items {
+	position: absolute;
+	background-color: rgba(240, 240, 240, 0.9);
     padding: 0;
     margin: 0;
+	left: 220px;
+	margin-top: -25px;
     list-style: none;
-	display: none;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s linear;
+	z-index: 1;
 }
 
 .left-menu__route-item {
     /* margin: 3px; */
 }
 
-.left-menu__route-link, 
-.left-menu__route-link--info {
+.left-menu__route-link {
     display: inline-block;
     box-sizing: border-box;
     width: 210px;
@@ -66,13 +76,14 @@
 }
 
 .left-menu__route-link--info {
+	color: rgb(240, 240, 240);
     display: inline-block;
     text-transform: uppercase;
     margin-left: 5px;
+	text-decoration: none;
 }
 
-.left-menu__route-link:hover, 
-.left-menu__route-link--info:hover {
+.left-menu__route-link:hover{
     /* transform: scale(1.05); */
     background-color: rgba(28, 118, 204, 0.5);
     color: rgb(240, 240, 240);
