@@ -46,7 +46,6 @@
 
 .card-item:hover {
     transform: scale(1.09);
-    z-index: 1;
 }
 
 .card-item__link {
