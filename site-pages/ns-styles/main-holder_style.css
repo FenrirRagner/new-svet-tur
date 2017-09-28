@@ -4,8 +4,10 @@ body {
 
 .main-holder {
 	display: flex;
-	justify-content: flex-start;
+	position: relative;
+	justify-content: center;
 	min-width: 1200px;
 	max-width: 1400px;
 	margin: 0 auto;
+	z-index: -1;
 }

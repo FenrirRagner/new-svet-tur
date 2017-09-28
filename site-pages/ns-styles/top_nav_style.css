@@ -3,6 +3,8 @@
     max-width: 1400px;
     background-color: #2b85db;
     margin: 0 auto;
+	position: relative;
+	height: 50px;
 }
 
 .top-navigation__list {
@@ -31,4 +33,25 @@
 
 .top-navigation__link:hover {
     background-color: rgba(240, 240, 240, 0.3);
+}
+
+.top-navigation__check-tour {
+	position: absolute;
+	left: 90px;
+	top: 15px;
+	width: 0;
+	height: 0;
+}
+
+.top-navigation__check-tour::after {
+	position: absolute;
+	content: "Туры";
+	color: rgb(240, 240, 240);
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 10px;
+}
+
+.top-navigation__check-tour:checked~.left-menu{
+	visibility: visible;
 }
