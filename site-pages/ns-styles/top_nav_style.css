@@ -31,6 +31,7 @@
     /* text-shadow: 1px 1px 1px #000000; */
 }
 
+.top-navigation__check-tour:hover::after,
 .top-navigation__link:hover {
     background-color: rgba(240, 240, 240, 0.3);
 }
@@ -49,7 +50,9 @@
 	color: rgb(240, 240, 240);
 	text-transform: uppercase;
 	font-weight: bold;
-	width: 10px;
+	cursor: pointer;
+	padding: 16px;
+	top: -15px;
 }
 
 .top-navigation__check-tour:checked~.left-menu{

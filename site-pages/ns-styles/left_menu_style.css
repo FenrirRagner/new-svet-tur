@@ -5,7 +5,7 @@
     padding-top: 10px;
     padding-right: 3px;
     background-color: rgba(28, 118, 204, 0.9);
-	height: 150px;
+	height: 170px;
 	position: absolute;
 	visibility: hidden;
 	z-index: 99;
@@ -16,12 +16,12 @@
 
 .left-menu__title {
     margin: 0;
-    margin-top: 5px;
-    padding: 5px;
+    padding-top: 10px;
+	padding-bottom: 10px;
     text-align: left;
     font-size: 18px;
     text-transform: uppercase;
-
+	padding-left: 5px;
     color: rgb(240, 240, 240);
 	z-index: 99;
 }
@@ -29,7 +29,7 @@
 
 .left-menu__title:hover,
 .left-menu__route-link--info:hover  {
-    text-decoration: underline;
+    background-color: rgba(240, 240, 240, 0.3);
 }
 
 .left-menu__route:hover .left-menu__route-items {
@@ -79,8 +79,8 @@
 	color: rgb(240, 240, 240);
     display: inline-block;
     text-transform: uppercase;
-    margin-left: 5px;
 	text-decoration: none;
+	padding-left: 5px;
 }
 
 .left-menu__route-link:hover{
