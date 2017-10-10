@@ -7,11 +7,11 @@
     <link href="../normalize/normalize.css" rel="stylesheet" />
     <link href="../ns-styles/header_info_style.css" rel="stylesheet" />
     <link href="../ns-styles/top_nav_style.css" rel="stylesheet" />
-    <link href="../ns-styles/left_menu_style.css" rel="stylesheet" />
-    <link href="../ns-styles/main_content_style.css" rel="stylesheet" />
+    <link href="../ns-styles/dropdawn_menu_style.css" rel="stylesheet" />
+    <link href="../page-styles/main_style.css" rel="stylesheet" />
     <link href="../ns-styles/footer_style.css" rel="stylesheet" />
     <link href="../ns-styles/main-holder_style.css" rel="stylesheet" />
-    <link href="../ns-img/sun.png" rel="icon"  />
+    <link href="../ns-img/sun.png" rel="icon" />
     <title>Главная</title>
 </head>
 
@@ -32,39 +32,39 @@
         </div>
         <nav class="top-navigation">
             <ul class="top-navigation__list">
-                <li class="top-navigation__item"><input class=" top-navigation__check-tour" type="checkbox"></input>
-        <div class="left-menu">
-            <div class="left-menu__route">
-                <h3 class="left-menu__title">В Тверской области</h3>
-                <ul class="left-menu__route-items">
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Города</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Экскурсионные туры</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Программы приёма</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Гостиницы и отели</a></li>
-                </ul>
-            </div>
-            <div class="left-menu__route">
-                <h3 class="left-menu__title">В России</h3>
-                <ul class="left-menu__route-items">
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Экскурсионные туры</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Теплоходные круизы</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Гостиницы и отели</a></li>
-                </ul>
-            </div>
-            <div class="left-menu__route">
-                <h3 class="left-menu__title">За границей</h3>
-                <ul class="left-menu__route-items">
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Направления</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Круизы</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Автобусные туры</a></li>
-                    <li class="left-menu__route-item"><a class="left-menu__route-link" href="#">Авиа и Ж/Д туры</a></li>
-                </ul>
-            </div>
-            <div class="left-menu__route">
-                <strong class="left-menu__route-item"><a href="#" class="left-menu__route-link--info">Информация для туристов</a></strong></p>
-            </div>
-        </div>
-		</li>
+                <li class="top-navigation__item"><input class=" top-navigation__check-tour" type="checkbox" checked></input>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-menu__route">
+                            <h3 class="dropdown-menu__title">В Тверской области</h3>
+                            <ul class="dropdown-menu__route-items">
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Города</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Экскурсионные туры</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Программы приёма</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Гостиницы и отели</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-menu__route">
+                            <h3 class="dropdown-menu__title">В России</h3>
+                            <ul class="dropdown-menu__route-items">
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Экскурсионные туры</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Теплоходные круизы</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Гостиницы и отели</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-menu__route">
+                            <h3 class="dropdown-menu__title">За границей</h3>
+                            <ul class="dropdown-menu__route-items">
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Направления</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Круизы</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Автобусные туры</a></li>
+                                <li class="dropdown-menu__route-item"><a class="dropdown-menu__route-link" href="#">Авиа и Ж/Д туры</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-menu__route">
+                            <strong class="dropdown-menu__route-item"><a href="#" class="dropdown-menu__route-link--info">Информация для туристов</a></strong></p>
+                        </div>
+                    </div>
+                </li>
                 <li class="top-navigation__item_active"><a class="top-navigation__link" href="#">Главная</a></li>
                 <li class="top-navigation__item"><a class="top-navigation__link" href="../pages/search.html">Поиск</a></li>
                 <li class="top-navigation__item"><a class="top-navigation__link" href="../pages/about.html">О компании</a></li>
@@ -79,42 +79,42 @@
         <section class="main-content">
             <div class="content-items">
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Theaters-and-musicals.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">театры и мюзиклы</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Weekend-tours.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">туры выходного дня</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Multi-day-tours.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">многодневные туры</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/For-school.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">для школьников</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/River-cruises.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">речные круизы</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Hot-tours.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">Горящие туры</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Concerts.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">концерты '17-'18</p>
                     </a>
                 </div>
                 <div class="card-item">
-                    <a class="card-item__link" href="#"><img class="card-item__img-content" src="#" alt="" />
+                    <a class="card-item__link" href="../pages/in-main-pages/Corporative.html"><img class="card-item__img-content" src="#" alt="" />
                         <p class="card-item__text-content">корпоративы</p>
                     </a>
                 </div>

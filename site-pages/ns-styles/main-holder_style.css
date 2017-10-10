@@ -9,5 +9,21 @@ body {
 	min-width: 1200px;
 	max-width: 1400px;
 	margin: 0 auto;
-	z-index: -1;
+}
+
+.main-content {
+    position: relative;
+    max-width: 800px;
+    min-width: 800px;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
 }

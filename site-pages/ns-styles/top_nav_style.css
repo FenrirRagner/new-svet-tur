@@ -28,16 +28,16 @@
     padding: 16px;
     color: #FFFFFF;
     text-decoration: none;
-    /* text-shadow: 1px 1px 1px #000000; */
 }
 
+.top-navigation__check-tour:hover::after,
 .top-navigation__link:hover {
     background-color: rgba(240, 240, 240, 0.3);
 }
 
 .top-navigation__check-tour {
 	position: absolute;
-	left: 90px;
+	left: 40px;
 	top: 15px;
 	width: 0;
 	height: 0;
@@ -45,13 +45,16 @@
 
 .top-navigation__check-tour::after {
 	position: absolute;
-	content: "Туры";
+	top: -15px;
+	padding: 16px;
+	content: "Меню туров";
 	color: rgb(240, 240, 240);
 	text-transform: uppercase;
 	font-weight: bold;
-	width: 10px;
+	cursor: pointer;
+	white-space: nowrap;
 }
 
-.top-navigation__check-tour:checked~.left-menu{
+.top-navigation__check-tour:checked~.dropdown-menu{
 	visibility: visible;
 }

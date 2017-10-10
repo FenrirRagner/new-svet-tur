@@ -40,6 +40,7 @@
 
 .header-info__contact-link-skype {
     color: inherit;
+	text-decoration: none;
 }
 
 .header-info__contact-item::before {
@@ -47,14 +48,11 @@
     content: "";
     width: 20px;
     height: 20px;
-    left: 10px;
-    margin-top: 7px;
+    left: 15px;
+	margin-top: 5px;
 }
 
-.header-info__contact-item:first-child::before {
-    background-image: url(../ns-img/phone.svg);
-}
-
+.header-info__contact-item:first-child::before,
 .header-info__contact-item:nth-child(2)::before {
     background-image: url(../ns-img/phone.svg);
 }
@@ -65,5 +63,9 @@
 
 .header-info__contact-item:nth-child(4)::before {
     background-image: url(../ns-img/skype.svg);
-    margin-top: 10px;
+}
+
+.header-info__contact-item:nth-child(4):hover {
+	background-color: #2b85db;
+	color: #FFFFFF;
 }
