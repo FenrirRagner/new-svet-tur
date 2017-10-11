@@ -10,3 +10,20 @@ body {
 	max-width: 1400px;
 	margin: 0 auto;
 }
+	
+.main-content {
+    position: relative;
+    max-width: 800px;
+    min-width: 800px;
+    height: 100%;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content-items {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
