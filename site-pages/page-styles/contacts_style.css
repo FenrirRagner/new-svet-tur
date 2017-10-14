@@ -29,3 +29,8 @@
 .content-items__link-email {
 	color: inherit;
 }
+
+.content-items__map {
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
