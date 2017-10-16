@@ -52,12 +52,9 @@
 	text-transform: uppercase;
 	font-weight: bold;
 	cursor: pointer;
-<<<<<<< HEAD
 	padding: 16px;
 	top: -15px;
-=======
 	white-space: nowrap;
->>>>>>> 67fb45e052322fbd282abd72e52148da1f70edd5
 }
 
 .top-navigation__check-tour:checked~.dropdown-menu{

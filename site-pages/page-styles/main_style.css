@@ -13,6 +13,12 @@
     content: "";
 } */
 
+.main-content__title {
+    margin-left: 12px;
+    padding: 0;
+    color: #2b85db;
+}
+
 .card-item {
     width: 210px;
     height: 140px;
@@ -37,10 +43,8 @@
     display: block;
     overflow: hidden;
     max-height: 120px;
-    margin-top: 5px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    margin: 0 auto;
+    padding-top: 8px;
     border-top: 1px solid #FFFFFF;
     font-size: 16px !important;
     font-weight: bold;
