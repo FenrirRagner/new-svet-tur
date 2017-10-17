@@ -16,15 +16,13 @@ body {
     max-width: 800px;
     min-width: 800px;
     height: 100%;
-    margin-top: 25px;
+    padding-top: 25px;
     margin-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 .content-items {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-	justify-content: flex-start;
 }
